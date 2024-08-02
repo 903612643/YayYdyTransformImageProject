@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		109EA00F2C5D32B500B14F19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA00E2C5D32B500B14F19 /* AppDelegate.m */; };
+		109EA0122C5D32B500B14F19 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0112C5D32B500B14F19 /* SceneDelegate.m */; };
+		109EA0152C5D32B500B14F19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0142C5D32B500B14F19 /* ViewController.m */; };
+		109EA0182C5D32B500B14F19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109EA0162C5D32B500B14F19 /* Main.storyboard */; };
+		109EA01A2C5D32B800B14F19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 109EA0192C5D32B800B14F19 /* Assets.xcassets */; };
+		109EA01D2C5D32B800B14F19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109EA01B2C5D32B800B14F19 /* LaunchScreen.storyboard */; };
+		109EA0202C5D32B800B14F19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA01F2C5D32B800B14F19 /* main.m */; };
+		109EA02A2C5D32B900B14F19 /* YdyTransformImageProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0292C5D32B900B14F19 /* YdyTransformImageProjectTests.m */; };
+		109EA0342C5D32B900B14F19 /* YdyTransformImageProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0332C5D32B900B14F19 /* YdyTransformImageProjectUITests.m */; };
+		109EA0362C5D32B900B14F19 /* YdyTransformImageProjectUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0352C5D32B900B14F19 /* YdyTransformImageProjectUITestsLaunchTests.m */; };
+		109EA06F2C5D375400B14F19 /* CanvasViewOptionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0432C5D375400B14F19 /* CanvasViewOptionHelper.m */; };
+		109EA0722C5D375400B14F19 /* YSKJ_HistoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA04A2C5D375400B14F19 /* YSKJ_HistoryModel.m */; };
+		109EA0732C5D375400B14F19 /* YSKJ_drawModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA04C2C5D375400B14F19 /* YSKJ_drawModel.m */; };
+		109EA0742C5D375400B14F19 /* YSKJ_ParamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA04D2C5D375400B14F19 /* YSKJ_ParamModel.m */; };
+		109EA0752C5D375400B14F19 /* YSKJ_ProModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0502C5D375400B14F19 /* YSKJ_ProModel.m */; };
+		109EA0782C5D375400B14F19 /* YSKJ_NaviView.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0562C5D375400B14F19 /* YSKJ_NaviView.m */; };
+		109EA0792C5D375400B14F19 /* ViewTransformConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA05D2C5D375400B14F19 /* ViewTransformConfiguration.m */; };
+		109EA07A2C5D375400B14F19 /* ViewTransformHander.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA05E2C5D375400B14F19 /* ViewTransformHander.m */; };
+		109EA07B2C5D375400B14F19 /* CtrlPointCtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA05F2C5D375400B14F19 /* CtrlPointCtnView.m */; };
+		109EA07C2C5D375400B14F19 /* CoordinateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0612C5D375400B14F19 /* CoordinateUtil.m */; };
+		109EA07D2C5D375400B14F19 /* UIViewTransformUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0622C5D375400B14F19 /* UIViewTransformUtil.m */; };
+		109EA07E2C5D375400B14F19 /* UIImage+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0642C5D375400B14F19 /* UIImage+Util.m */; };
+		109EA07F2C5D375400B14F19 /* UIView+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0682C5D375400B14F19 /* UIView+Transform.m */; };
+		109EA0802C5D375400B14F19 /* YSKJ_CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0692C5D375400B14F19 /* YSKJ_CanvasView.m */; };
+		109EA0812C5D375400B14F19 /* YSKJ_LoadCollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA06B2C5D375400B14F19 /* YSKJ_LoadCollCell.m */; };
+		109EA0842C5D39DE00B14F19 /* YSKJ_MyLoadProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0832C5D39DE00B14F19 /* YSKJ_MyLoadProduct.m */; };
+		109EA0872C5D3B5800B14F19 /* H_TZImagePickerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0862C5D3B5800B14F19 /* H_TZImagePickerHelper.m */; };
+		109EA08A2C5D3E3800B14F19 /* H_Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0892C5D3E3800B14F19 /* H_Util.m */; };
+		314C371E92072E27110CFBD6 /* libPods-YdyTransformImageProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC4BA0BBB97830EB7F2324E /* libPods-YdyTransformImageProject.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		109EA0262C5D32B900B14F19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 109EA0022C5D32B500B14F19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 109EA0092C5D32B500B14F19;
+			remoteInfo = YdyTransformImageProject;
+		};
+		109EA0302C5D32B900B14F19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 109EA0022C5D32B500B14F19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 109EA0092C5D32B500B14F19;
+			remoteInfo = YdyTransformImageProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		109EA00A2C5D32B500B14F19 /* YdyTransformImageProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YdyTransformImageProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		109EA00D2C5D32B500B14F19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		109EA00E2C5D32B500B14F19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		109EA0102C5D32B500B14F19 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		109EA0112C5D32B500B14F19 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		109EA0132C5D32B500B14F19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		109EA0142C5D32B500B14F19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		109EA0172C5D32B500B14F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		109EA0192C5D32B800B14F19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		109EA01C2C5D32B800B14F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		109EA01E2C5D32B800B14F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		109EA01F2C5D32B800B14F19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		109EA0252C5D32B900B14F19 /* YdyTransformImageProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YdyTransformImageProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		109EA0292C5D32B900B14F19 /* YdyTransformImageProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YdyTransformImageProjectTests.m; sourceTree = "<group>"; };
+		109EA02F2C5D32B900B14F19 /* YdyTransformImageProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YdyTransformImageProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		109EA0332C5D32B900B14F19 /* YdyTransformImageProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YdyTransformImageProjectUITests.m; sourceTree = "<group>"; };
+		109EA0352C5D32B900B14F19 /* YdyTransformImageProjectUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YdyTransformImageProjectUITestsLaunchTests.m; sourceTree = "<group>"; };
+		109EA0432C5D375400B14F19 /* CanvasViewOptionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewOptionHelper.m; sourceTree = "<group>"; };
+		109EA0472C5D375400B14F19 /* CanvasViewOptionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewOptionHelper.h; sourceTree = "<group>"; };
+		109EA0492C5D375400B14F19 /* YSKJ_ParamModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSKJ_ParamModel.h; sourceTree = "<group>"; };
+		109EA04A2C5D375400B14F19 /* YSKJ_HistoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSKJ_HistoryModel.m; sourceTree = "<group>"; };
+		109EA04B2C5D375400B14F19 /* YSKJ_ProModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSKJ_ProModel.h; sourceTree = "<group>"; };
+		109EA04C2C5D375400B14F19 /* YSKJ_drawModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSKJ_drawModel.m; sourceTree = "<group>"; };
+		109EA04D2C5D375400B14F19 /* YSKJ_ParamModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSKJ_ParamModel.m; sourceTree = "<group>"; };
+		109EA04E2C5D375400B14F19 /* YSKJ_HistoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSKJ_HistoryModel.h; sourceTree = "<group>"; };
+		109EA04F2C5D375400B14F19 /* YSKJ_drawModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSKJ_drawModel.h; sourceTree = "<group>"; };
+		109EA0502C5D375400B14F19 /* YSKJ_ProModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSKJ_ProModel.m; sourceTree = "<group>"; };
+		109EA0522C5D375400B14F19 /* YSKJ_CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSKJ_CanvasView.h; sourceTree = "<group>"; };
+		109EA0552C5D375400B14F19 /* YSKJ_LoadCollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSKJ_LoadCollCell.h; sourceTree = "<group>"; };
+		109EA0562C5D375400B14F19 /* YSKJ_NaviView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSKJ_NaviView.m; sourceTree = "<group>"; };
+		109EA05A2C5D375400B14F19 /* ViewTransformConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewTransformConfiguration.h; sourceTree = "<group>"; };
+		109EA05B2C5D375400B14F19 /* CtrlPointCtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CtrlPointCtnView.h; sourceTree = "<group>"; };
+		109EA05C2C5D375400B14F19 /* ViewTransformHander.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewTransformHander.h; sourceTree = "<group>"; };
+		109EA05D2C5D375400B14F19 /* ViewTransformConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewTransformConfiguration.m; sourceTree = "<group>"; };
+		109EA05E2C5D375400B14F19 /* ViewTransformHander.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewTransformHander.m; sourceTree = "<group>"; };
+		109EA05F2C5D375400B14F19 /* CtrlPointCtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CtrlPointCtnView.m; sourceTree = "<group>"; };
+		109EA0612C5D375400B14F19 /* CoordinateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinateUtil.m; sourceTree = "<group>"; };
+		109EA0622C5D375400B14F19 /* UIViewTransformUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewTransformUtil.m; sourceTree = "<group>"; };
+		109EA0632C5D375400B14F19 /* UIImage+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Util.h"; sourceTree = "<group>"; };
+		109EA0642C5D375400B14F19 /* UIImage+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Util.m"; sourceTree = "<group>"; };
+		109EA0652C5D375400B14F19 /* UIViewTransformUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewTransformUtil.h; sourceTree = "<group>"; };
+		109EA0662C5D375400B14F19 /* CoordinateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinateUtil.h; sourceTree = "<group>"; };
+		109EA0672C5D375400B14F19 /* UIView+Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Transform.h"; sourceTree = "<group>"; };
+		109EA0682C5D375400B14F19 /* UIView+Transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Transform.m"; sourceTree = "<group>"; };
+		109EA0692C5D375400B14F19 /* YSKJ_CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSKJ_CanvasView.m; sourceTree = "<group>"; };
+		109EA06B2C5D375400B14F19 /* YSKJ_LoadCollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSKJ_LoadCollCell.m; sourceTree = "<group>"; };
+		109EA06C2C5D375400B14F19 /* YSKJ_NaviView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSKJ_NaviView.h; sourceTree = "<group>"; };
+		109EA0822C5D39DE00B14F19 /* YSKJ_MyLoadProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSKJ_MyLoadProduct.h; sourceTree = "<group>"; };
+		109EA0832C5D39DE00B14F19 /* YSKJ_MyLoadProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSKJ_MyLoadProduct.m; sourceTree = "<group>"; };
+		109EA0852C5D3B5800B14F19 /* H_TZImagePickerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H_TZImagePickerHelper.h; sourceTree = "<group>"; };
+		109EA0862C5D3B5800B14F19 /* H_TZImagePickerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H_TZImagePickerHelper.m; sourceTree = "<group>"; };
+		109EA0882C5D3E3800B14F19 /* H_Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H_Util.h; sourceTree = "<group>"; };
+		109EA0892C5D3E3800B14F19 /* H_Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H_Util.m; sourceTree = "<group>"; };
+		14900B7D818E52EBAF89180E /* Pods-YdyTransformImageProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YdyTransformImageProject.debug.xcconfig"; path = "Target Support Files/Pods-YdyTransformImageProject/Pods-YdyTransformImageProject.debug.xcconfig"; sourceTree = "<group>"; };
+		26D70199BB00AAC5E456AE3A /* Pods-YdyTransformImageProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YdyTransformImageProject.release.xcconfig"; path = "Target Support Files/Pods-YdyTransformImageProject/Pods-YdyTransformImageProject.release.xcconfig"; sourceTree = "<group>"; };
+		DCC4BA0BBB97830EB7F2324E /* libPods-YdyTransformImageProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YdyTransformImageProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		109EA0072C5D32B500B14F19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314C371E92072E27110CFBD6 /* libPods-YdyTransformImageProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109EA0222C5D32B900B14F19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109EA02C2C5D32B900B14F19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		109EA0012C5D32B500B14F19 = {
+			isa = PBXGroup;
+			children = (
+				109EA00C2C5D32B500B14F19 /* YdyTransformImageProject */,
+				109EA0282C5D32B900B14F19 /* YdyTransformImageProjectTests */,
+				109EA0322C5D32B900B14F19 /* YdyTransformImageProjectUITests */,
+				109EA00B2C5D32B500B14F19 /* Products */,
+				3B46ECBA36E1D5238221DA51 /* Pods */,
+				46A855270420F8CEB9CC6D7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		109EA00B2C5D32B500B14F19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				109EA00A2C5D32B500B14F19 /* YdyTransformImageProject.app */,
+				109EA0252C5D32B900B14F19 /* YdyTransformImageProjectTests.xctest */,
+				109EA02F2C5D32B900B14F19 /* YdyTransformImageProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		109EA00C2C5D32B500B14F19 /* YdyTransformImageProject */ = {
+			isa = PBXGroup;
+			children = (
+				109EA0882C5D3E3800B14F19 /* H_Util.h */,
+				109EA0892C5D3E3800B14F19 /* H_Util.m */,
+				109EA0852C5D3B5800B14F19 /* H_TZImagePickerHelper.h */,
+				109EA0862C5D3B5800B14F19 /* H_TZImagePickerHelper.m */,
+				109EA0422C5D375300B14F19 /* CanvasVC */,
+				109EA00D2C5D32B500B14F19 /* AppDelegate.h */,
+				109EA00E2C5D32B500B14F19 /* AppDelegate.m */,
+				109EA0102C5D32B500B14F19 /* SceneDelegate.h */,
+				109EA0112C5D32B500B14F19 /* SceneDelegate.m */,
+				109EA0132C5D32B500B14F19 /* ViewController.h */,
+				109EA0142C5D32B500B14F19 /* ViewController.m */,
+				109EA0162C5D32B500B14F19 /* Main.storyboard */,
+				109EA0192C5D32B800B14F19 /* Assets.xcassets */,
+				109EA01B2C5D32B800B14F19 /* LaunchScreen.storyboard */,
+				109EA01E2C5D32B800B14F19 /* Info.plist */,
+				109EA01F2C5D32B800B14F19 /* main.m */,
+			);
+			path = YdyTransformImageProject;
+			sourceTree = "<group>";
+		};
+		109EA0282C5D32B900B14F19 /* YdyTransformImageProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				109EA0292C5D32B900B14F19 /* YdyTransformImageProjectTests.m */,
+			);
+			path = YdyTransformImageProjectTests;
+			sourceTree = "<group>";
+		};
+		109EA0322C5D32B900B14F19 /* YdyTransformImageProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				109EA0332C5D32B900B14F19 /* YdyTransformImageProjectUITests.m */,
+				109EA0352C5D32B900B14F19 /* YdyTransformImageProjectUITestsLaunchTests.m */,
+			);
+			path = YdyTransformImageProjectUITests;
+			sourceTree = "<group>";
+		};
+		109EA0422C5D375300B14F19 /* CanvasVC */ = {
+			isa = PBXGroup;
+			children = (
+				109EA0482C5D375400B14F19 /* Model */,
+				109EA0512C5D375400B14F19 /* View */,
+				109EA0472C5D375400B14F19 /* CanvasViewOptionHelper.h */,
+				109EA0432C5D375400B14F19 /* CanvasViewOptionHelper.m */,
+			);
+			path = CanvasVC;
+			sourceTree = "<group>";
+		};
+		109EA0482C5D375400B14F19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				109EA0492C5D375400B14F19 /* YSKJ_ParamModel.h */,
+				109EA04A2C5D375400B14F19 /* YSKJ_HistoryModel.m */,
+				109EA04B2C5D375400B14F19 /* YSKJ_ProModel.h */,
+				109EA04C2C5D375400B14F19 /* YSKJ_drawModel.m */,
+				109EA04D2C5D375400B14F19 /* YSKJ_ParamModel.m */,
+				109EA04E2C5D375400B14F19 /* YSKJ_HistoryModel.h */,
+				109EA04F2C5D375400B14F19 /* YSKJ_drawModel.h */,
+				109EA0502C5D375400B14F19 /* YSKJ_ProModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		109EA0512C5D375400B14F19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				109EA0582C5D375400B14F19 /* transformFramework */,
+				109EA06C2C5D375400B14F19 /* YSKJ_NaviView.h */,
+				109EA0562C5D375400B14F19 /* YSKJ_NaviView.m */,
+				109EA0522C5D375400B14F19 /* YSKJ_CanvasView.h */,
+				109EA0692C5D375400B14F19 /* YSKJ_CanvasView.m */,
+				109EA0552C5D375400B14F19 /* YSKJ_LoadCollCell.h */,
+				109EA06B2C5D375400B14F19 /* YSKJ_LoadCollCell.m */,
+				109EA0822C5D39DE00B14F19 /* YSKJ_MyLoadProduct.h */,
+				109EA0832C5D39DE00B14F19 /* YSKJ_MyLoadProduct.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		109EA0582C5D375400B14F19 /* transformFramework */ = {
+			isa = PBXGroup;
+			children = (
+				109EA0592C5D375400B14F19 /* Core */,
+				109EA0602C5D375400B14F19 /* Util */,
+				109EA0672C5D375400B14F19 /* UIView+Transform.h */,
+				109EA0682C5D375400B14F19 /* UIView+Transform.m */,
+			);
+			path = transformFramework;
+			sourceTree = "<group>";
+		};
+		109EA0592C5D375400B14F19 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				109EA05A2C5D375400B14F19 /* ViewTransformConfiguration.h */,
+				109EA05B2C5D375400B14F19 /* CtrlPointCtnView.h */,
+				109EA05C2C5D375400B14F19 /* ViewTransformHander.h */,
+				109EA05D2C5D375400B14F19 /* ViewTransformConfiguration.m */,
+				109EA05E2C5D375400B14F19 /* ViewTransformHander.m */,
+				109EA05F2C5D375400B14F19 /* CtrlPointCtnView.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		109EA0602C5D375400B14F19 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				109EA0612C5D375400B14F19 /* CoordinateUtil.m */,
+				109EA0622C5D375400B14F19 /* UIViewTransformUtil.m */,
+				109EA0632C5D375400B14F19 /* UIImage+Util.h */,
+				109EA0642C5D375400B14F19 /* UIImage+Util.m */,
+				109EA0652C5D375400B14F19 /* UIViewTransformUtil.h */,
+				109EA0662C5D375400B14F19 /* CoordinateUtil.h */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		3B46ECBA36E1D5238221DA51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14900B7D818E52EBAF89180E /* Pods-YdyTransformImageProject.debug.xcconfig */,
+				26D70199BB00AAC5E456AE3A /* Pods-YdyTransformImageProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		46A855270420F8CEB9CC6D7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCC4BA0BBB97830EB7F2324E /* libPods-YdyTransformImageProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		109EA0092C5D32B500B14F19 /* YdyTransformImageProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 109EA0392C5D32B900B14F19 /* Build configuration list for PBXNativeTarget "YdyTransformImageProject" */;
+			buildPhases = (
+				9FD1700F212E63A6BC91B195 /* [CP] Check Pods Manifest.lock */,
+				109EA0062C5D32B500B14F19 /* Sources */,
+				109EA0072C5D32B500B14F19 /* Frameworks */,
+				109EA0082C5D32B500B14F19 /* Resources */,
+				B8A559DA7BEEE15EE3812936 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YdyTransformImageProject;
+			productName = YdyTransformImageProject;
+			productReference = 109EA00A2C5D32B500B14F19 /* YdyTransformImageProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		109EA0242C5D32B900B14F19 /* YdyTransformImageProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 109EA03C2C5D32B900B14F19 /* Build configuration list for PBXNativeTarget "YdyTransformImageProjectTests" */;
+			buildPhases = (
+				109EA0212C5D32B900B14F19 /* Sources */,
+				109EA0222C5D32B900B14F19 /* Frameworks */,
+				109EA0232C5D32B900B14F19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				109EA0272C5D32B900B14F19 /* PBXTargetDependency */,
+			);
+			name = YdyTransformImageProjectTests;
+			productName = YdyTransformImageProjectTests;
+			productReference = 109EA0252C5D32B900B14F19 /* YdyTransformImageProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		109EA02E2C5D32B900B14F19 /* YdyTransformImageProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 109EA03F2C5D32B900B14F19 /* Build configuration list for PBXNativeTarget "YdyTransformImageProjectUITests" */;
+			buildPhases = (
+				109EA02B2C5D32B900B14F19 /* Sources */,
+				109EA02C2C5D32B900B14F19 /* Frameworks */,
+				109EA02D2C5D32B900B14F19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				109EA0312C5D32B900B14F19 /* PBXTargetDependency */,
+			);
+			name = YdyTransformImageProjectUITests;
+			productName = YdyTransformImageProjectUITests;
+			productReference = 109EA02F2C5D32B900B14F19 /* YdyTransformImageProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		109EA0022C5D32B500B14F19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					109EA0092C5D32B500B14F19 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					109EA0242C5D32B900B14F19 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 109EA0092C5D32B500B14F19;
+					};
+					109EA02E2C5D32B900B14F19 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 109EA0092C5D32B500B14F19;
+					};
+				};
+			};
+			buildConfigurationList = 109EA0052C5D32B500B14F19 /* Build configuration list for PBXProject "YdyTransformImageProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 109EA0012C5D32B500B14F19;
+			productRefGroup = 109EA00B2C5D32B500B14F19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				109EA0092C5D32B500B14F19 /* YdyTransformImageProject */,
+				109EA0242C5D32B900B14F19 /* YdyTransformImageProjectTests */,
+				109EA02E2C5D32B900B14F19 /* YdyTransformImageProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		109EA0082C5D32B500B14F19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109EA01D2C5D32B800B14F19 /* LaunchScreen.storyboard in Resources */,
+				109EA01A2C5D32B800B14F19 /* Assets.xcassets in Resources */,
+				109EA0182C5D32B500B14F19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109EA0232C5D32B900B14F19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109EA02D2C5D32B900B14F19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9FD1700F212E63A6BC91B195 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YdyTransformImageProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8A559DA7BEEE15EE3812936 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YdyTransformImageProject/Pods-YdyTransformImageProject-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YdyTransformImageProject/Pods-YdyTransformImageProject-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YdyTransformImageProject/Pods-YdyTransformImageProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		109EA0062C5D32B500B14F19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109EA0812C5D375400B14F19 /* YSKJ_LoadCollCell.m in Sources */,
+				109EA06F2C5D375400B14F19 /* CanvasViewOptionHelper.m in Sources */,
+				109EA0722C5D375400B14F19 /* YSKJ_HistoryModel.m in Sources */,
+				109EA0752C5D375400B14F19 /* YSKJ_ProModel.m in Sources */,
+				109EA0872C5D3B5800B14F19 /* H_TZImagePickerHelper.m in Sources */,
+				109EA07C2C5D375400B14F19 /* CoordinateUtil.m in Sources */,
+				109EA0842C5D39DE00B14F19 /* YSKJ_MyLoadProduct.m in Sources */,
+				109EA0152C5D32B500B14F19 /* ViewController.m in Sources */,
+				109EA07E2C5D375400B14F19 /* UIImage+Util.m in Sources */,
+				109EA07B2C5D375400B14F19 /* CtrlPointCtnView.m in Sources */,
+				109EA0782C5D375400B14F19 /* YSKJ_NaviView.m in Sources */,
+				109EA00F2C5D32B500B14F19 /* AppDelegate.m in Sources */,
+				109EA07A2C5D375400B14F19 /* ViewTransformHander.m in Sources */,
+				109EA0202C5D32B800B14F19 /* main.m in Sources */,
+				109EA0742C5D375400B14F19 /* YSKJ_ParamModel.m in Sources */,
+				109EA0122C5D32B500B14F19 /* SceneDelegate.m in Sources */,
+				109EA07D2C5D375400B14F19 /* UIViewTransformUtil.m in Sources */,
+				109EA07F2C5D375400B14F19 /* UIView+Transform.m in Sources */,
+				109EA0732C5D375400B14F19 /* YSKJ_drawModel.m in Sources */,
+				109EA0802C5D375400B14F19 /* YSKJ_CanvasView.m in Sources */,
+				109EA08A2C5D3E3800B14F19 /* H_Util.m in Sources */,
+				109EA0792C5D375400B14F19 /* ViewTransformConfiguration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109EA0212C5D32B900B14F19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109EA02A2C5D32B900B14F19 /* YdyTransformImageProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109EA02B2C5D32B900B14F19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109EA0362C5D32B900B14F19 /* YdyTransformImageProjectUITestsLaunchTests.m in Sources */,
+				109EA0342C5D32B900B14F19 /* YdyTransformImageProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		109EA0272C5D32B900B14F19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 109EA0092C5D32B500B14F19 /* YdyTransformImageProject */;
+			targetProxy = 109EA0262C5D32B900B14F19 /* PBXContainerItemProxy */;
+		};
+		109EA0312C5D32B900B14F19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 109EA0092C5D32B500B14F19 /* YdyTransformImageProject */;
+			targetProxy = 109EA0302C5D32B900B14F19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		109EA0162C5D32B500B14F19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				109EA0172C5D32B500B14F19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		109EA01B2C5D32B800B14F19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				109EA01C2C5D32B800B14F19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		109EA0372C5D32B900B14F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		109EA0382C5D32B900B14F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		109EA03A2C5D32B900B14F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14900B7D818E52EBAF89180E /* Pods-YdyTransformImageProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQA8CYJZWQ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YdyTransformImageProject/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "打开相册";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmshPro.YdyTransformImageProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		109EA03B2C5D32B900B14F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D70199BB00AAC5E456AE3A /* Pods-YdyTransformImageProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQA8CYJZWQ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YdyTransformImageProject/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "打开相册";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmshPro.YdyTransformImageProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		109EA03D2C5D32B900B14F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQA8CYJZWQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmshPro.YdyTransformImageProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YdyTransformImageProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YdyTransformImageProject";
+			};
+			name = Debug;
+		};
+		109EA03E2C5D32B900B14F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQA8CYJZWQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmshPro.YdyTransformImageProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YdyTransformImageProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YdyTransformImageProject";
+			};
+			name = Release;
+		};
+		109EA0402C5D32B900B14F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQA8CYJZWQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmshPro.YdyTransformImageProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YdyTransformImageProject;
+			};
+			name = Debug;
+		};
+		109EA0412C5D32B900B14F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MQA8CYJZWQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmshPro.YdyTransformImageProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YdyTransformImageProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		109EA0052C5D32B500B14F19 /* Build configuration list for PBXProject "YdyTransformImageProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109EA0372C5D32B900B14F19 /* Debug */,
+				109EA0382C5D32B900B14F19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		109EA0392C5D32B900B14F19 /* Build configuration list for PBXNativeTarget "YdyTransformImageProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109EA03A2C5D32B900B14F19 /* Debug */,
+				109EA03B2C5D32B900B14F19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		109EA03C2C5D32B900B14F19 /* Build configuration list for PBXNativeTarget "YdyTransformImageProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109EA03D2C5D32B900B14F19 /* Debug */,
+				109EA03E2C5D32B900B14F19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		109EA03F2C5D32B900B14F19 /* Build configuration list for PBXNativeTarget "YdyTransformImageProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109EA0402C5D32B900B14F19 /* Debug */,
+				109EA0412C5D32B900B14F19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 109EA0022C5D32B500B14F19 /* Project object */;
+}

@@ -1,0 +1,21 @@
+
+#source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '11.0'
+
+inhibit_all_warnings!
+
+def pods
+ 
+
+    pod 'MJExtension'
+    pod 'TZImagePickerController'
+    pod 'AGGeometryKit+POP', '~> 0.1'
+
+    
+end
+
+target 'YdyTransformImageProject' do
+    pods
+    
+end
+
