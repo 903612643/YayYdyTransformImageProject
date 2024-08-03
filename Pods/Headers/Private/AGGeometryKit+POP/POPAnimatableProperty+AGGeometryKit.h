@@ -1,1 +1,0 @@
-../../../AGGeometryKit+POP/Source/POPAnimatableProperty+AGGeometryKit.h

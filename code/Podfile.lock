@@ -1,0 +1,42 @@
+PODS:
+  - AGGeometryKit (1.2.9):
+    - AGGeometryKit/CALayerProperties (= 1.2.9)
+    - AGGeometryKit/UIViewProperties (= 1.2.9)
+  - "AGGeometryKit+POP (0.1)":
+    - "AGGeometryKit+POP/Default (= 0.1)"
+  - "AGGeometryKit+POP/Default (0.1)":
+    - AGGeometryKit (~> 1.0)
+    - pop (~> 1.0.4)
+  - AGGeometryKit/CALayerProperties (1.2.9)
+  - AGGeometryKit/UIViewProperties (1.2.9)
+  - MJExtension (3.4.1)
+  - pop (1.0.12)
+  - TZImagePickerController (3.8.4):
+    - TZImagePickerController/Basic (= 3.8.4)
+    - TZImagePickerController/Location (= 3.8.4)
+  - TZImagePickerController/Basic (3.8.4)
+  - TZImagePickerController/Location (3.8.4)
+
+DEPENDENCIES:
+  - "AGGeometryKit+POP (~> 0.1)"
+  - MJExtension
+  - TZImagePickerController
+
+SPEC REPOS:
+  trunk:
+    - AGGeometryKit
+    - "AGGeometryKit+POP"
+    - MJExtension
+    - pop
+    - TZImagePickerController
+
+SPEC CHECKSUMS:
+  AGGeometryKit: 5e820bd2a8290e3b1e3a1517a49c65ae42c239c9
+  "AGGeometryKit+POP": 72c980191db0646c31bed0b1ffd571e05f9ad029
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  TZImagePickerController: f1c9f1cae6ac0e30b31aaa9698f9bf4a7cf5b84f
+
+PODFILE CHECKSUM: fd4bc68c1383eff928b487dcb5778f8b29954612
+
+COCOAPODS: 1.15.2
