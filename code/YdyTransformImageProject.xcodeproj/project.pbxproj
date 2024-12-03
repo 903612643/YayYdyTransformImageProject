@@ -16,6 +16,9 @@
 		06A0FFE12CFF11D000EE2CD9 /* Mat_Robot_Metallic.png in Resources */ = {isa = PBXBuildFile; fileRef = 06A0FFDA2CFF11D000EE2CD9 /* Mat_Robot_Metallic.png */; };
 		06A0FFE22CFF11D000EE2CD9 /* Mat_Robot_Normal_OpenGL.png in Resources */ = {isa = PBXBuildFile; fileRef = 06A0FFDB2CFF11D000EE2CD9 /* Mat_Robot_Normal_OpenGL.png */; };
 		06A0FFE32CFF11D000EE2CD9 /* Mat_Robot_Roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = 06A0FFDC2CFF11D000EE2CD9 /* Mat_Robot_Roughness.png */; };
+		06A0FFE82CFF1A3000EE2CD9 /* SceneRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A0FFE72CFF1A3000EE2CD9 /* SceneRootViewController.m */; };
+		06A0FFED2CFF1A4600EE2CD9 /* assimpLoader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 06A0FFEA2CFF1A4600EE2CD9 /* assimpLoader.mm */; };
+		06A0FFEE2CFF1A4600EE2CD9 /* testCpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06A0FFEB2CFF1A4600EE2CD9 /* testCpp.cpp */; };
 		109EA00F2C5D32B500B14F19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA00E2C5D32B500B14F19 /* AppDelegate.m */; };
 		109EA0122C5D32B500B14F19 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0112C5D32B500B14F19 /* SceneDelegate.m */; };
 		109EA0152C5D32B500B14F19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0142C5D32B500B14F19 /* ViewController.m */; };
@@ -75,6 +78,12 @@
 		06A0FFDA2CFF11D000EE2CD9 /* Mat_Robot_Metallic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mat_Robot_Metallic.png; sourceTree = "<group>"; };
 		06A0FFDB2CFF11D000EE2CD9 /* Mat_Robot_Normal_OpenGL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mat_Robot_Normal_OpenGL.png; sourceTree = "<group>"; };
 		06A0FFDC2CFF11D000EE2CD9 /* Mat_Robot_Roughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mat_Robot_Roughness.png; sourceTree = "<group>"; };
+		06A0FFE62CFF1A2B00EE2CD9 /* SceneRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneRootViewController.h; sourceTree = "<group>"; };
+		06A0FFE72CFF1A3000EE2CD9 /* SceneRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneRootViewController.m; sourceTree = "<group>"; };
+		06A0FFE92CFF1A4600EE2CD9 /* testCpp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = testCpp.hpp; sourceTree = "<group>"; };
+		06A0FFEA2CFF1A4600EE2CD9 /* assimpLoader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = assimpLoader.mm; sourceTree = "<group>"; };
+		06A0FFEB2CFF1A4600EE2CD9 /* testCpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testCpp.cpp; sourceTree = "<group>"; };
+		06A0FFEC2CFF1A4600EE2CD9 /* assimpLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assimpLoader.h; sourceTree = "<group>"; };
 		109EA00A2C5D32B500B14F19 /* YdyTransformImageProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YdyTransformImageProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		109EA00D2C5D32B500B14F19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		109EA00E2C5D32B500B14F19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -166,6 +175,12 @@
 				06A0FF072CF960EB00EE2CD9 /* RootNode.h */,
 				06A0FF082CF960EB00EE2CD9 /* RootNode.m */,
 				06A0FFD32CFF112200EE2CD9 /* copy.md */,
+				06A0FFEC2CFF1A4600EE2CD9 /* assimpLoader.h */,
+				06A0FFEA2CFF1A4600EE2CD9 /* assimpLoader.mm */,
+				06A0FFEB2CFF1A4600EE2CD9 /* testCpp.cpp */,
+				06A0FFE92CFF1A4600EE2CD9 /* testCpp.hpp */,
+				06A0FFE62CFF1A2B00EE2CD9 /* SceneRootViewController.h */,
+				06A0FFE72CFF1A3000EE2CD9 /* SceneRootViewController.m */,
 				06A0FFDD2CFF11D000EE2CD9 /* textures */,
 			);
 			path = Scene;
@@ -530,6 +545,7 @@
 				109EA06F2C5D375400B14F19 /* CanvasViewOptionHelper.m in Sources */,
 				109EA0722C5D375400B14F19 /* YSKJ_HistoryModel.m in Sources */,
 				109EA0752C5D375400B14F19 /* YSKJ_ProModel.m in Sources */,
+				06A0FFE82CFF1A3000EE2CD9 /* SceneRootViewController.m in Sources */,
 				109EA0872C5D3B5800B14F19 /* H_TZImagePickerHelper.m in Sources */,
 				109EA07C2C5D375400B14F19 /* CoordinateUtil.m in Sources */,
 				109EA0842C5D39DE00B14F19 /* YSKJ_MyLoadProduct.m in Sources */,
@@ -541,12 +557,14 @@
 				109EA07A2C5D375400B14F19 /* ViewTransformHander.m in Sources */,
 				109EA0202C5D32B800B14F19 /* main.m in Sources */,
 				109EA0742C5D375400B14F19 /* YSKJ_ParamModel.m in Sources */,
+				06A0FFEE2CFF1A4600EE2CD9 /* testCpp.cpp in Sources */,
 				109EA0122C5D32B500B14F19 /* SceneDelegate.m in Sources */,
 				109EA07D2C5D375400B14F19 /* UIViewTransformUtil.m in Sources */,
 				109EA07F2C5D375400B14F19 /* UIView+Transform.m in Sources */,
 				109EA0732C5D375400B14F19 /* YSKJ_drawModel.m in Sources */,
 				109EA0802C5D375400B14F19 /* YSKJ_CanvasView.m in Sources */,
 				109EA08A2C5D3E3800B14F19 /* H_Util.m in Sources */,
+				06A0FFED2CFF1A4600EE2CD9 /* assimpLoader.mm in Sources */,
 				109EA0792C5D375400B14F19 /* ViewTransformConfiguration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
