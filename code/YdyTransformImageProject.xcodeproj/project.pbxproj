@@ -199,6 +199,16 @@
 			path = textures;
 			sourceTree = "<group>";
 		};
+		06A0FFEF2CFF1AA000EE2CD9 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				109EA0852C5D3B5800B14F19 /* H_TZImagePickerHelper.h */,
+				109EA0862C5D3B5800B14F19 /* H_TZImagePickerHelper.m */,
+				109EA0422C5D375300B14F19 /* CanvasVC */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
 		109EA0012C5D32B500B14F19 = {
 			isa = PBXGroup;
 			children = (
@@ -224,12 +234,10 @@
 		109EA00C2C5D32B500B14F19 /* YdyTransformImageProject */ = {
 			isa = PBXGroup;
 			children = (
+				06A0FFEF2CFF1AA000EE2CD9 /* Canvas */,
 				06A0FF062CF960DF00EE2CD9 /* Scene */,
 				109EA0882C5D3E3800B14F19 /* H_Util.h */,
 				109EA0892C5D3E3800B14F19 /* H_Util.m */,
-				109EA0852C5D3B5800B14F19 /* H_TZImagePickerHelper.h */,
-				109EA0862C5D3B5800B14F19 /* H_TZImagePickerHelper.m */,
-				109EA0422C5D375300B14F19 /* CanvasVC */,
 				109EA00D2C5D32B500B14F19 /* AppDelegate.h */,
 				109EA00E2C5D32B500B14F19 /* AppDelegate.m */,
 				109EA0102C5D32B500B14F19 /* SceneDelegate.h */,
