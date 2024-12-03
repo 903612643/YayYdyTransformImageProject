@@ -25,9 +25,7 @@
 		06A0FFFE2CFF1AE500EE2CD9 /* readBufferTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A0FFF82CFF1AE500EE2CD9 /* readBufferTableCell.m */; };
 		06A0FFFF2CFF1AE500EE2CD9 /* readBufferTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06A0FFF92CFF1AE500EE2CD9 /* readBufferTableCell.xib */; };
 		109EA00F2C5D32B500B14F19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA00E2C5D32B500B14F19 /* AppDelegate.m */; };
-		109EA0122C5D32B500B14F19 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0112C5D32B500B14F19 /* SceneDelegate.m */; };
 		109EA0152C5D32B500B14F19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0142C5D32B500B14F19 /* ViewController.m */; };
-		109EA0182C5D32B500B14F19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109EA0162C5D32B500B14F19 /* Main.storyboard */; };
 		109EA01A2C5D32B800B14F19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 109EA0192C5D32B800B14F19 /* Assets.xcassets */; };
 		109EA01D2C5D32B800B14F19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109EA01B2C5D32B800B14F19 /* LaunchScreen.storyboard */; };
 		109EA0202C5D32B800B14F19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA01F2C5D32B800B14F19 /* main.m */; };
@@ -100,11 +98,8 @@
 		109EA00A2C5D32B500B14F19 /* YdyTransformImageProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YdyTransformImageProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		109EA00D2C5D32B500B14F19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		109EA00E2C5D32B500B14F19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		109EA0102C5D32B500B14F19 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		109EA0112C5D32B500B14F19 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		109EA0132C5D32B500B14F19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		109EA0142C5D32B500B14F19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		109EA0172C5D32B500B14F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		109EA0192C5D32B800B14F19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		109EA01C2C5D32B800B14F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		109EA01E2C5D32B800B14F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -215,6 +210,8 @@
 		06A0FFEF2CFF1AA000EE2CD9 /* Canvas */ = {
 			isa = PBXGroup;
 			children = (
+				109EA0132C5D32B500B14F19 /* ViewController.h */,
+				109EA0142C5D32B500B14F19 /* ViewController.m */,
 				109EA0852C5D3B5800B14F19 /* H_TZImagePickerHelper.h */,
 				109EA0862C5D3B5800B14F19 /* H_TZImagePickerHelper.m */,
 				109EA0422C5D375300B14F19 /* CanvasVC */,
@@ -285,11 +282,6 @@
 				109EA0892C5D3E3800B14F19 /* H_Util.m */,
 				109EA00D2C5D32B500B14F19 /* AppDelegate.h */,
 				109EA00E2C5D32B500B14F19 /* AppDelegate.m */,
-				109EA0102C5D32B500B14F19 /* SceneDelegate.h */,
-				109EA0112C5D32B500B14F19 /* SceneDelegate.m */,
-				109EA0132C5D32B500B14F19 /* ViewController.h */,
-				109EA0142C5D32B500B14F19 /* ViewController.m */,
-				109EA0162C5D32B500B14F19 /* Main.storyboard */,
 				109EA0192C5D32B800B14F19 /* Assets.xcassets */,
 				109EA01B2C5D32B800B14F19 /* LaunchScreen.storyboard */,
 				109EA01E2C5D32B800B14F19 /* Info.plist */,
@@ -528,7 +520,6 @@
 				109EA01A2C5D32B800B14F19 /* Assets.xcassets in Resources */,
 				06A0FFE02CFF11D000EE2CD9 /* Mat_Robot_Emissive.png in Resources */,
 				06A0FFFF2CFF1AE500EE2CD9 /* readBufferTableCell.xib in Resources */,
-				109EA0182C5D32B500B14F19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,7 +607,6 @@
 				109EA0202C5D32B800B14F19 /* main.m in Sources */,
 				109EA0742C5D375400B14F19 /* YSKJ_ParamModel.m in Sources */,
 				06A0FFEE2CFF1A4600EE2CD9 /* testCpp.cpp in Sources */,
-				109EA0122C5D32B500B14F19 /* SceneDelegate.m in Sources */,
 				109EA07D2C5D375400B14F19 /* UIViewTransformUtil.m in Sources */,
 				109EA07F2C5D375400B14F19 /* UIView+Transform.m in Sources */,
 				109EA0732C5D375400B14F19 /* YSKJ_drawModel.m in Sources */,
@@ -660,14 +650,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		109EA0162C5D32B500B14F19 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				109EA0172C5D32B500B14F19 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		109EA01B2C5D32B800B14F19 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -811,7 +793,6 @@
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "打开相册";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -848,7 +829,6 @@
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "打开相册";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
