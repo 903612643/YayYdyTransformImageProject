@@ -10,6 +10,12 @@
 		06A0FF092CF960EB00EE2CD9 /* RootNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A0FF082CF960EB00EE2CD9 /* RootNode.m */; };
 		06A0FFD42CFF112200EE2CD9 /* copy.md in Resources */ = {isa = PBXBuildFile; fileRef = 06A0FFD32CFF112200EE2CD9 /* copy.md */; };
 		06A0FFD62CFF115B00EE2CD9 /* libassimp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A0FFD52CFF115B00EE2CD9 /* libassimp.a */; };
+		06A0FFDE2CFF11D000EE2CD9 /* Car.fbx in Resources */ = {isa = PBXBuildFile; fileRef = 06A0FFD72CFF11D000EE2CD9 /* Car.fbx */; };
+		06A0FFDF2CFF11D000EE2CD9 /* Mat_Robot_Base_Color_Mixed.png in Resources */ = {isa = PBXBuildFile; fileRef = 06A0FFD82CFF11D000EE2CD9 /* Mat_Robot_Base_Color_Mixed.png */; };
+		06A0FFE02CFF11D000EE2CD9 /* Mat_Robot_Emissive.png in Resources */ = {isa = PBXBuildFile; fileRef = 06A0FFD92CFF11D000EE2CD9 /* Mat_Robot_Emissive.png */; };
+		06A0FFE12CFF11D000EE2CD9 /* Mat_Robot_Metallic.png in Resources */ = {isa = PBXBuildFile; fileRef = 06A0FFDA2CFF11D000EE2CD9 /* Mat_Robot_Metallic.png */; };
+		06A0FFE22CFF11D000EE2CD9 /* Mat_Robot_Normal_OpenGL.png in Resources */ = {isa = PBXBuildFile; fileRef = 06A0FFDB2CFF11D000EE2CD9 /* Mat_Robot_Normal_OpenGL.png */; };
+		06A0FFE32CFF11D000EE2CD9 /* Mat_Robot_Roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = 06A0FFDC2CFF11D000EE2CD9 /* Mat_Robot_Roughness.png */; };
 		109EA00F2C5D32B500B14F19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA00E2C5D32B500B14F19 /* AppDelegate.m */; };
 		109EA0122C5D32B500B14F19 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0112C5D32B500B14F19 /* SceneDelegate.m */; };
 		109EA0152C5D32B500B14F19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109EA0142C5D32B500B14F19 /* ViewController.m */; };
@@ -63,6 +69,12 @@
 		06A0FF082CF960EB00EE2CD9 /* RootNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNode.m; sourceTree = "<group>"; };
 		06A0FFD32CFF112200EE2CD9 /* copy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = copy.md; sourceTree = "<group>"; };
 		06A0FFD52CFF115B00EE2CD9 /* libassimp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libassimp.a; sourceTree = "<group>"; };
+		06A0FFD72CFF11D000EE2CD9 /* Car.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = Car.fbx; sourceTree = "<group>"; };
+		06A0FFD82CFF11D000EE2CD9 /* Mat_Robot_Base_Color_Mixed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mat_Robot_Base_Color_Mixed.png; sourceTree = "<group>"; };
+		06A0FFD92CFF11D000EE2CD9 /* Mat_Robot_Emissive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mat_Robot_Emissive.png; sourceTree = "<group>"; };
+		06A0FFDA2CFF11D000EE2CD9 /* Mat_Robot_Metallic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mat_Robot_Metallic.png; sourceTree = "<group>"; };
+		06A0FFDB2CFF11D000EE2CD9 /* Mat_Robot_Normal_OpenGL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mat_Robot_Normal_OpenGL.png; sourceTree = "<group>"; };
+		06A0FFDC2CFF11D000EE2CD9 /* Mat_Robot_Roughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mat_Robot_Roughness.png; sourceTree = "<group>"; };
 		109EA00A2C5D32B500B14F19 /* YdyTransformImageProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YdyTransformImageProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		109EA00D2C5D32B500B14F19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		109EA00E2C5D32B500B14F19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -154,8 +166,22 @@
 				06A0FF072CF960EB00EE2CD9 /* RootNode.h */,
 				06A0FF082CF960EB00EE2CD9 /* RootNode.m */,
 				06A0FFD32CFF112200EE2CD9 /* copy.md */,
+				06A0FFDD2CFF11D000EE2CD9 /* textures */,
 			);
 			path = Scene;
+			sourceTree = "<group>";
+		};
+		06A0FFDD2CFF11D000EE2CD9 /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				06A0FFD72CFF11D000EE2CD9 /* Car.fbx */,
+				06A0FFD82CFF11D000EE2CD9 /* Mat_Robot_Base_Color_Mixed.png */,
+				06A0FFD92CFF11D000EE2CD9 /* Mat_Robot_Emissive.png */,
+				06A0FFDA2CFF11D000EE2CD9 /* Mat_Robot_Metallic.png */,
+				06A0FFDB2CFF11D000EE2CD9 /* Mat_Robot_Normal_OpenGL.png */,
+				06A0FFDC2CFF11D000EE2CD9 /* Mat_Robot_Roughness.png */,
+			);
+			path = textures;
 			sourceTree = "<group>";
 		};
 		109EA0012C5D32B500B14F19 = {
@@ -423,9 +449,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A0FFDF2CFF11D000EE2CD9 /* Mat_Robot_Base_Color_Mixed.png in Resources */,
 				109EA01D2C5D32B800B14F19 /* LaunchScreen.storyboard in Resources */,
+				06A0FFE12CFF11D000EE2CD9 /* Mat_Robot_Metallic.png in Resources */,
 				06A0FFD42CFF112200EE2CD9 /* copy.md in Resources */,
+				06A0FFE32CFF11D000EE2CD9 /* Mat_Robot_Roughness.png in Resources */,
+				06A0FFE22CFF11D000EE2CD9 /* Mat_Robot_Normal_OpenGL.png in Resources */,
+				06A0FFDE2CFF11D000EE2CD9 /* Car.fbx in Resources */,
 				109EA01A2C5D32B800B14F19 /* Assets.xcassets in Resources */,
+				06A0FFE02CFF11D000EE2CD9 /* Mat_Robot_Emissive.png in Resources */,
 				109EA0182C5D32B500B14F19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
