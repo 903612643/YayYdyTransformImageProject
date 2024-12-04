@@ -20,7 +20,7 @@
 
 #import <AVKit/AVKit.h>
 
-@interface ViewController : UIViewController<ViewTransformeDelegate>
+@interface CanvasRootController : UIViewController<ViewTransformeDelegate>
 {
 
     ViewTransformConfiguration *cnf;

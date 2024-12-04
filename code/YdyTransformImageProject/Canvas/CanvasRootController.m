@@ -5,7 +5,7 @@
 //  Created by yangdeyuan on 2024/8/2.
 //
 
-#import "ViewController.h"
+#import "CanvasRootController.h"
 #import "UIImage+Util.h"
 #import "YSKJ_drawModel.h"
 #import "MJExtension.h"
@@ -21,7 +21,7 @@
 // 16进制颜色值，如：#000000 , 注意：在使用的时候hexValue写成：0x000000
 #define HexColor(hexValue) [UIColor colorWithRed:((float)(((hexValue) & 0xFF0000) >> 16))/255.0 green:((float)(((hexValue) & 0xFF00) >> 8))/255.0 blue:((float)((hexValue) & 0xFF))/255.0 alpha:1.0]
 
-@interface ViewController ()
+@interface CanvasRootController ()
 
 //@property (nonatomic, strong)YSKJ_CanvasIssueProView *titleView;
 //@property (nonatomic, strong)YSKJ_CanvasIssueLikeView *likeView;
@@ -44,7 +44,7 @@
 
 @end
 
-@implementation ViewController
+@implementation CanvasRootController
 
 -(NSMutableArray*)productDataArr
 {

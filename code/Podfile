@@ -10,6 +10,7 @@ def pods
     pod 'MJExtension'
     pod 'TZImagePickerController'
     pod 'AGGeometryKit+POP', '~> 0.1'
+    pod 'CocoaAsyncSocket'
     
 end
 

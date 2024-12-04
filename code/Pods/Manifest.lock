@@ -9,6 +9,7 @@ PODS:
     - pop (~> 1.0.4)
   - AGGeometryKit/CALayerProperties (1.2.9)
   - AGGeometryKit/UIViewProperties (1.2.9)
+  - CocoaAsyncSocket (7.6.5)
   - MJExtension (3.4.1)
   - pop (1.0.12)
   - TZImagePickerController (3.8.4):
@@ -19,6 +20,7 @@ PODS:
 
 DEPENDENCIES:
   - "AGGeometryKit+POP (~> 0.1)"
+  - CocoaAsyncSocket
   - MJExtension
   - TZImagePickerController
 
@@ -26,6 +28,7 @@ SPEC REPOS:
   trunk:
     - AGGeometryKit
     - "AGGeometryKit+POP"
+    - CocoaAsyncSocket
     - MJExtension
     - pop
     - TZImagePickerController
@@ -33,10 +36,11 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AGGeometryKit: 5e820bd2a8290e3b1e3a1517a49c65ae42c239c9
   "AGGeometryKit+POP": 72c980191db0646c31bed0b1ffd571e05f9ad029
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   TZImagePickerController: f1c9f1cae6ac0e30b31aaa9698f9bf4a7cf5b84f
 
-PODFILE CHECKSUM: 5ca6c6413f3002bef3a7f59c4f12b24cc23aceaf
+PODFILE CHECKSUM: 0859a1b17ec14cc4dfaaea93cdfd3e5aca063d7b
 
 COCOAPODS: 1.14.3
