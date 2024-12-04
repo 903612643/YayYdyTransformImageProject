@@ -19,6 +19,8 @@
 		06A0006F2D0034A900EE2CD9 /* SmoothingGroups.inl in Resources */ = {isa = PBXBuildFile; fileRef = 06A000512D0034A900EE2CD9 /* SmoothingGroups.inl */; };
 		06A000702D0034A900EE2CD9 /* vector2.inl in Resources */ = {isa = PBXBuildFile; fileRef = 06A0005D2D0034A900EE2CD9 /* vector2.inl */; };
 		06A000712D0034A900EE2CD9 /* vector3.inl in Resources */ = {isa = PBXBuildFile; fileRef = 06A0005F2D0034A900EE2CD9 /* vector3.inl */; };
+		06A000732D00353000EE2CD9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A000722D00353000EE2CD9 /* libz.tbd */; };
+		06A000752D00354100EE2CD9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A000742D00354100EE2CD9 /* libc++.tbd */; };
 		06A0FF092CF960EB00EE2CD9 /* RootNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A0FF082CF960EB00EE2CD9 /* RootNode.m */; };
 		06A0FFD42CFF112200EE2CD9 /* copy.md in Resources */ = {isa = PBXBuildFile; fileRef = 06A0FFD32CFF112200EE2CD9 /* copy.md */; };
 		06A0FFD62CFF115B00EE2CD9 /* libassimp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A0FFD52CFF115B00EE2CD9 /* libassimp.a */; };
@@ -180,6 +182,8 @@
 		06A000622D0034A900EE2CD9 /* XmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlParser.h; sourceTree = "<group>"; };
 		06A000632D0034A900EE2CD9 /* XMLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLTools.h; sourceTree = "<group>"; };
 		06A000642D0034A900EE2CD9 /* ZipArchiveIOSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchiveIOSystem.h; sourceTree = "<group>"; };
+		06A000722D00353000EE2CD9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		06A000742D00354100EE2CD9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		06A0FF072CF960EB00EE2CD9 /* RootNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNode.h; sourceTree = "<group>"; };
 		06A0FF082CF960EB00EE2CD9 /* RootNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNode.m; sourceTree = "<group>"; };
 		06A0FFD32CFF112200EE2CD9 /* copy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = copy.md; sourceTree = "<group>"; };
@@ -264,6 +268,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A000752D00354100EE2CD9 /* libc++.tbd in Frameworks */,
+				06A000732D00353000EE2CD9 /* libz.tbd in Frameworks */,
 				06A0FFD62CFF115B00EE2CD9 /* libassimp.a in Frameworks */,
 				314C371E92072E27110CFBD6 /* libPods-YdyTransformImageProject.a in Frameworks */,
 			);
@@ -644,6 +650,8 @@
 		46A855270420F8CEB9CC6D7A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				06A000742D00354100EE2CD9 /* libc++.tbd */,
+				06A000722D00353000EE2CD9 /* libz.tbd */,
 				06A0FFD52CFF115B00EE2CD9 /* libassimp.a */,
 				DCC4BA0BBB97830EB7F2324E /* libPods-YdyTransformImageProject.a */,
 			);
