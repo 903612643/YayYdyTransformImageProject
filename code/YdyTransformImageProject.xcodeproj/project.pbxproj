@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06A000012D00344C00EE2CD9 /* read.md in Resources */ = {isa = PBXBuildFile; fileRef = 06A000002D00344C00EE2CD9 /* read.md */; };
 		06A0FF092CF960EB00EE2CD9 /* RootNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A0FF082CF960EB00EE2CD9 /* RootNode.m */; };
 		06A0FFD42CFF112200EE2CD9 /* copy.md in Resources */ = {isa = PBXBuildFile; fileRef = 06A0FFD32CFF112200EE2CD9 /* copy.md */; };
 		06A0FFD62CFF115B00EE2CD9 /* libassimp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A0FFD52CFF115B00EE2CD9 /* libassimp.a */; };
@@ -71,6 +72,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06A000002D00344C00EE2CD9 /* read.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = read.md; sourceTree = "<group>"; };
 		06A0FF072CF960EB00EE2CD9 /* RootNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNode.h; sourceTree = "<group>"; };
 		06A0FF082CF960EB00EE2CD9 /* RootNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNode.m; sourceTree = "<group>"; };
 		06A0FFD32CFF112200EE2CD9 /* copy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = copy.md; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				06A0FF072CF960EB00EE2CD9 /* RootNode.h */,
 				06A0FF082CF960EB00EE2CD9 /* RootNode.m */,
 				06A0FFD32CFF112200EE2CD9 /* copy.md */,
+				06A000002D00344C00EE2CD9 /* read.md */,
 				06A0FFEC2CFF1A4600EE2CD9 /* assimpLoader.h */,
 				06A0FFEA2CFF1A4600EE2CD9 /* assimpLoader.mm */,
 				06A0FFEB2CFF1A4600EE2CD9 /* testCpp.cpp */,
@@ -515,6 +518,7 @@
 				06A0FFD42CFF112200EE2CD9 /* copy.md in Resources */,
 				06A0FFE32CFF11D000EE2CD9 /* Mat_Robot_Roughness.png in Resources */,
 				06A0FFFD2CFF1AE500EE2CD9 /* DeviceLinkRootVC.xib in Resources */,
+				06A000012D00344C00EE2CD9 /* read.md in Resources */,
 				06A0FFE22CFF11D000EE2CD9 /* Mat_Robot_Normal_OpenGL.png in Resources */,
 				06A0FFDE2CFF11D000EE2CD9 /* Car.fbx in Resources */,
 				109EA01A2C5D32B800B14F19 /* Assets.xcassets in Resources */,
